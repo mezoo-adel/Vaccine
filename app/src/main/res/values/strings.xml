@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Vaccine تطعيم</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first">first_page</string>
+    <string name="second">second_page</string>
+    <string name="third">third_page</string>
+    <string name="finish">final_view</string>
+    <string name="num_of_Kids">"' عدد الأطفال تحت سن 7 سنوات '"</string>
+    <string-array name="spinner">
+    <item>"لا يوجد أطفال"</item>
+    <item>"طفل/ة"</item>
+    <item>"2 أطفال"</item>
+</string-array>
+
+    <string-array name="years">
+        <item>"عدد السنين"</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>"عدد الشهور"</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+</resources>

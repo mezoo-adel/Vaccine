@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="لقاح كورونا"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <ImageButton
+        android:onClick="openCovid"
+        android:id="@+id/imageButton"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_marginBottom="15dp"
+        android:elevation="25dp"
+        android:scaleType="fitXY"
+        android:tooltipText="Covid-19 لقاح"
+        app:srcCompat="@drawable/covid_vaccine" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="تطعيمات الأطفال"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:onClick="openKids"
+        android:elevation="25dp"
+        android:scaleType="fitXY"
+        android:tooltipText="تطعيم الأطفال"
+        app:srcCompat="@drawable/kids_vaccine" />
+
+</LinearLayout>
